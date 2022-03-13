@@ -1,0 +1,14 @@
+{
+  "name": "apv",
+  "version": "1.0.0",
+  "description": "apv bot for the upcoming event about Ramadan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Algerian Positive Vibes - Developers team",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  }
+}
