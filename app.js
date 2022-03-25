@@ -1,5 +1,5 @@
 const {Telegraf} = require('telegraf');
-const bot = new Telegraf('5110345514:AAHDRHemZx5-EFVS3fcO2q-_ESm3_8_O5G0');
+const bot = new Telegraf('Webhooks Token');
 
 bot.command('start',ctx =>{
     ctx.deleteMessage();
@@ -322,10 +322,12 @@ bot.hears("🌻 النشاطات المزمع تنظيمها :", ctx=>{
     `,{})
 })
 //method to start get the script to pulling updates for telegram 
-
+Connection = () => {
+    console.log('Bot is launching .. 🕔');
+    console.log('200 OK ✅');
+}
 bot.launch();
-console.log('Bot is launching ..')
-console.log('Successfully Launched 200 OK')
+Connection();
 
 
 
